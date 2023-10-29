@@ -32,12 +32,12 @@ This dataset contains labels that describe the connections between data flows as
 
 **Dataset Description**
 information about columns present and their description:
-  ![feature](graphic/1.png)
+  ![feature](Graphic/1.png)
 
 - Number of rows: 1008748
 - Number of columns: 23
 - Data summary:(specifying non-null values and datatypes of each column)
-  ![data_summary](graphic/2.png)
+  ![data_summary](Graphic/2.png)
 
 ### **PREPROCESSING:**
   * Checked data types, ensuring each attribute was correctly interpreted.
