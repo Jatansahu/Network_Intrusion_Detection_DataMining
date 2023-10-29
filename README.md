@@ -44,9 +44,9 @@ table1
  
  -Addressed null values:
     
-    :Removed rows with a high percentage of missing values to maintain data quality.
+    -Removed rows with a high percentage of missing values to maintain data quality.
     
-    :Imputed missing values in columns with a moderate number of missing values, using the mean of the respective column for imputation.
+    -Imputed missing values in columns with a moderate number of missing values, using the mean of the respective column for imputation.
  
  -Encoded categorical columns into numerical values, making the data suitable for machine learning algorithms.
  
