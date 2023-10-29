@@ -14,6 +14,10 @@ This dataset contains labels that describe the connections between data flows as
 - Bhoomi Prajapati(202218063): Exploratory Data Analysis(20%)
 - Bhargav Vidja(202101201): Exploratory Data Analysis(20%)
 
+## Workflow
+flowchart1 and flowchart 2
+
+
 ## Table of Contents
 
 1. [Data preprocessing(preprocessing.ipynb)](preprocessing.ipynb)
@@ -86,8 +90,8 @@ information about columns present and their description:
 
 
 ### T3. Build an end-to-end Machine Learning pipeline.
-
-(Pipeline chart)
+  ![pipeline_1](Graphic/3.png)
+  ![pipeline_2](Graphic/4.png)
 
 The machine learning pipeline comprises key stages. It begins with data splitting and standardization, where we divide the dataset, standardize it, and move to model selection. In this stage, we consider models like linear regression, polynomial regression, Ridge regression, k-Nearest Neighbors (kNN), and Random Forest.
 Models used for Evaluation
@@ -97,8 +101,10 @@ Models used for Evaluation
 **Model 2:** Decision Trees
 
 **Model 3:** K-nearest Neighbors
-
+  ![model_performance](Graphic/5.png)
+  
 Decision Tree works better but there it might be overfitting so will use Random forest in the overfitting case.
+  ![final_accuracy](Graphic/6.png)
 
 Subsequently, hyperparameter tuning and model evaluation optimizes model hyperparameters using GridSearchCV, with evaluation on the validation set. Selecting the best model and evaluating on the test set follows, where the top-performing model on the validation set is assessed on an independent test dataset. Finally, model comparison showcases results, highlighting the best hyperparameters and critical metrics like Precision, Recall, and Accuracy Score. These stages encompass data preparation, model selection, and thorough evaluation.
 
