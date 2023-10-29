@@ -14,6 +14,10 @@ This dataset contains labels that describe the connections between data flows as
 - Bhoomi Prajapati(202218063): Exploratory Data Analysis(20%)
 - Bhargav Vidja(202101201): Exploratory Data Analysis(20%)
 
+## Workflow
+flowchart1 and flowchart 2
+
+
 ## Table of Contents
 
 1. [Data preprocessing(preprocessing.ipynb)](preprocessing.ipynb)
