@@ -28,8 +28,7 @@ This dataset contains labels that describe the connections between data flows as
 #### a) Summary of the dataset
 (Include information columns present, attribute types, null values, and a summary of each attribute)
 
-**Dataset chosen:** CTU-IoT-Malware-Capture-1-1conn.log.labeled.csv
-[https://www.kaggle.com/datasets/agungpambudi/network-malware-detection-connection-analysis/data?select=CTU-IoT-Malware-Capture-1-1conn.log.labeled.csv]
+**Dataset chosen:** [CTU-IoT-Malware-Capture-1-1conn.log.labeled.csv](https://www.kaggle.com/datasets/agungpambudi/network-malware-detection-connection-analysis/data?select=CTU-IoT-Malware-Capture-1-1conn.log.labeled.csv)
 
 **Dataset Description**
 information about columns present and their description:
