@@ -25,7 +25,7 @@ This dataset contains labels that describe the connections between data flows as
 
 ### T1. Explore the dataset assigned to your team and provide:
 
-#### a) Summary of the dataset
+### a) Summary of the dataset
 (Include information columns present, attribute types, null values, and a summary of each attribute)
 
 **Dataset chosen:** [CTU-IoT-Malware-Capture-1-1conn.log.labeled.csv](https://www.kaggle.com/datasets/agungpambudi/network-malware-detection-connection-analysis/data?select=CTU-IoT-Malware-Capture-1-1conn.log.labeled.csv)
@@ -39,7 +39,7 @@ table1
 - Data summary:(specifying non-null values and datatypes of each column)
   table 2
 
-####**PREPROCESSING:**
+### **PREPROCESSING:**
  -Checked data types, ensuring each attribute was correctly interpreted.
  -Addressed null values:
     :Removed rows with a high percentage of missing values to maintain data quality.
@@ -47,7 +47,7 @@ table1
  -Encoded categorical columns into numerical values, making the data suitable for machine learning algorithms.
  -Employed feature selection techniques and tree-based algorithms to determine feature importance scores, enabling the identification of attributes with the most significant impact on the target variable.
 
-####**b) Data Visualization**
+#### **b) Data Visualization**
 (summarizing insights about the dataset through EDA)
  
  -**Missing Values Check:** We initially examined the presence of missing values, focusing on attributes with values such as '0.0' or '-'. We visualized and quantified these missing values to better understand their distribution.
@@ -63,7 +63,9 @@ table1
 
 ### T2. Identify and list classification problems on your assigned dataset. Which one does seem the most interesting to you and why?
 **Classification Problems:**
+ 
   -'proto' Classification: Identifying the network protocol used in each connection, allowing for insights into communication channels during intrusion activities.
+  
   -'label' Classification: Categorizing activities as 'malicious' or 'benign,' enabling the automatic detection and response to potentially harmful network activities.
 
 
