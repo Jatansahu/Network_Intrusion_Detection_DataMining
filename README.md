@@ -41,10 +41,15 @@ table1
 
 ### **PREPROCESSING:**
  -Checked data types, ensuring each attribute was correctly interpreted.
+ 
  -Addressed null values:
+    
     :Removed rows with a high percentage of missing values to maintain data quality.
+    
     :Imputed missing values in columns with a moderate number of missing values, using the mean of the respective column for imputation.
+ 
  -Encoded categorical columns into numerical values, making the data suitable for machine learning algorithms.
+ 
  -Employed feature selection techniques and tree-based algorithms to determine feature importance scores, enabling the identification of attributes with the most significant impact on the target variable.
 
 #### **b) Data Visualization**
