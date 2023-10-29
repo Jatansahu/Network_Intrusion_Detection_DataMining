@@ -51,9 +51,13 @@ table1
 (summarizing insights about the dataset through EDA)
  
  -**Missing Values Check:** We initially examined the presence of missing values, focusing on attributes with values such as '0.0' or '-'. We visualized and quantified these missing values to better understand their distribution.
+ 
  -**Distribution of Attributes:** We explored the distribution of attributes in the dataset, paying specific attention to the 'proto' and 'label' columns after preprocessing. This helped us gain insights into the dataset's composition.
+ 
  -**Box Plots:** We used box plots to visualize the distribution of data across different attributes, providing a clear view of data spread and potential outliers.
+ 
  -**Classification Accuracy:** Our EDA highlighted that the model exhibits high accuracy (100%) in classifying network traffic as "Benign" when the traffic is of type UDP or ICMP. However, for TCP traffic, there's a challenge due to data imbalance, resulting in a tendency to classify it as malicious when labeled as 'proto=tcp'.
+ 
  -**Feature Relations:** We identified a high correlation among the 'id.resp_p', 'proto', and 'history' columns. To maintain model accuracy, we decided to retain only the 'history' column, as keeping all three could affect the model's performance.
  
  These insights provide a valuable foundation for further analysis and modeling, guiding decision-making regarding feature selection and model building.
