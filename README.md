@@ -106,5 +106,7 @@ Models used for Evaluation
 Decision Tree works better but there it might be overfitting so will use Random forest in the overfitting case.
   ![final_accuracy](Graphic/6.png)
 
+final result
+
 Subsequently, hyperparameter tuning and model evaluation optimizes model hyperparameters using GridSearchCV, with evaluation on the validation set. Selecting the best model and evaluating on the test set follows, where the top-performing model on the validation set is assessed on an independent test dataset. Finally, model comparison showcases results, highlighting the best hyperparameters and critical metrics like Precision, Recall, and Accuracy Score. These stages encompass data preparation, model selection, and thorough evaluation.
 
